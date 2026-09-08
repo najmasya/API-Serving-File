@@ -1,6 +1,6 @@
 # Panduan Load Testing dan Evaluasi
 
-Deliverable ini membandingkan **tanpa load balancer** (langsung ke API-1 pada `:8001`) dengan **load balancer + 2 API** (Nginx pada `:8080`, backend API-1 `:8001` dan API-2 `:8002`). Semua run memakai durasi default **300 detik / 5 menit**.
+Deliverable ini membandingkan **tanpa load balancer** (langsung ke API-1 pada `:8001`) dengan **load balancer + 2 API** (Nginx pada `:8081`, backend API-1 `:8001` dan API-2 `:8002`). Semua run memakai durasi default **300 detik / 5 menit**.
 
 ## 1. Instalasi
 
